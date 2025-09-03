@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Dashboard</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <div id="header">
@@ -21,8 +24,11 @@
 
         </div>
         <div id="user-block">
-            <img id="profile-pic-1" src="pics/forsene.jpg">
-            <div id="intro-user"> Hi, there Forsen  <br> <div id="user-name"> Hans Eli Sebastian Fors @Forsen</div></div>
+            <div id="profile-block">
+                <img id="profile-pic-1" src="pics/forsene.jpg">
+                <div id="intro-user"> Hi, there Forsen  <br> <div id="user-name"> Hans Eli Sebastian Fors @Forsen</div></div>
+
+            </div>
             <div id="btn-container">
                 <button>new</button>
                 <button>upload</button>
@@ -32,59 +38,158 @@
     </div>
 
     <div id="dashboard-sidebar">
-        <p>Dashboard</p>
-        <p>Home</p>
-        <p>Profile</p>
-        <p>Messages</p>
-        <p>History</p>
-        <p>Tasks</p>
-        <p>Communites</p>
-        <p>Settings</p>
-        <p>Suppourt</p>
-        <p>Privacys</p>
-    </div>
+        <div id="dash-logo">
+            <p><img id="dashboard-svg" src="svg/dashboard-svgrepo-com.svg" alt="dashboard svg"> Dashboard</p>
+        </div>
+        <div id="sidebar-section1">
+                <p><img id="home-svg" src="svg/home-1-svgrepo-com.svg" alt="home svg"> Home</p>
+                <p><img id="profile-svg" src="svg/profile-round-1342-svgrepo-com.svg" alt="profile svg"> Profile</p>
+                <p><img id="message-svg" src="svg/sms-svgrepo-com.svg" alt="messages svg"> Messages</p>
+                <p><img id="history-svg" src="svg/history-svgrepo-com.svg" alt="history svg"> History</p>
+                <p><img id="tasks-svg" src="svg/tasks-svgrepo-com.svg" alt="task svg"> Tasks</p>
+                <p><img id="community-svg" src="svg/myspace-svgrepo-com.svg" alt="community svg"> Communites</p>
 
+        </div>
+        <div id="sidebar-section2">
+            <p><img id="settings-svg" src="svg/settings-gear-part-2-svgrepo-com.svg" alt="setting svg"> Settings</p>
+            <p><img id="suppourt-svg" src="svg/help-svgrepo-com.svg" alt="Suppourt svg"> Suppourt</p>
+            <p><img id="privacy-id" src="svg/privacy-svgrepo-com.svg" alt="privacy svg"> Privacy</p>
+        </div>
+    </div>
+    
     <div id="main-content">
+        <div id="projects-title">Your Projects</div>
         <div id="card">
-            <p>Card 1</p>
-            <div>placeholder text</div>
+            <div id="card-container">
+            <div id="title-main-content">
+                <p>Minecraft speedrunning</p>
+                <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas ipsum aut.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro fugit voluptatem, veritatis aspernatur ex, 
+                    id dicta accusamus dignissimos magni assumenda tenetur recusandae dolore? Nisi ipsum a impedit quidem ducimus ipsam?
+                </div>
+            </div>
+            <div id="card-btns">
+                <img id="favorite-svg" src="svg/favorite-svgrepo-com.svg" alt="favorite svg">
+                <img id="heart-svg" src="svg/heart-svgrepo-com.svg" alt="heart-svg">
+                <img id="share-svg" src="svg/share-svgrepo-com.svg" alt="share svg">
+            </div>
+             </div>
         </div>
 
         <div id="card">
-            <p>Card 2</p>
-            <div>placeholder text</div>
+            <div id="card-container">
+            <div id="title-main-content">
+                <p>Yearly PUBG win</p>
+                <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas ipsum aut.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro fugit voluptatem, veritatis aspernatur ex, 
+                    id dicta accusamus dignissimos magni assumenda tenetur recusandae dolore? Nisi ipsum a impedit quidem ducimus ipsam?
+                </div>
+            </div>
+            <div id="card-btns">
+                <img id="favorite-svg" src="svg/favorite-svgrepo-com.svg" alt="favorite svg">
+                <img id="heart-svg" src="svg/heart-svgrepo-com.svg" alt="heart-svg">
+                <img id="share-svg" src="svg/share-svgrepo-com.svg" alt="share svg">
+            </div>
+             </div>
         </div>
 
         <div id="card">
-            <p>Card 3</p>
-            <div>placeholder text</div>
+            <div id="card-container">
+            <div id="title-main-content">
+                <p>Chess tournament</p>
+                <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas ipsum aut.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro fugit voluptatem, veritatis aspernatur ex, 
+                    id dicta accusamus dignissimos magni assumenda tenetur recusandae dolore? Nisi ipsum a impedit quidem ducimus ipsam?
+                </div>
+            </div>
+            <div id="card-btns">
+                <img id="favorite-svg" src="svg/favorite-svgrepo-com.svg" alt="favorite svg">
+                <img id="heart-svg" src="svg/heart-svgrepo-com.svg" alt="heart-svg">
+                <img id="share-svg" src="svg/share-svgrepo-com.svg" alt="share svg">
+            </div>
+             </div>
         </div>
-
         <div id="card">
-            <p>Card 4</p>
-            <div>placeholder text</div>
+            <div id="card-container">
+            <div id="title-main-content">
+                <p>Beat Solgryn</p>
+                <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas ipsum aut.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro fugit voluptatem, veritatis aspernatur ex, 
+                    id dicta accusamus dignissimos magni assumenda tenetur recusandae dolore? Nisi ipsum a impedit quidem ducimus ipsam?
+                </div>
+            </div>
+            <div id="card-btns">
+                <img id="favorite-svg" src="svg/favorite-svgrepo-com.svg" alt="favorite svg">
+                <img id="heart-svg" src="svg/heart-svgrepo-com.svg" alt="heart-svg">
+                <img id="share-svg" src="svg/share-svgrepo-com.svg" alt="share svg">
+            </div>
+             </div>
         </div>
-
         <div id="card">
-            <p>Card 5</p>
-            <div>placeholder text</div>
+            <div id="card-container">
+            <div id="title-main-content">
+                <p>Forsen film festival</p>
+                <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas ipsum aut.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro fugit voluptatem, veritatis aspernatur ex, 
+                    id dicta accusamus dignissimos magni assumenda tenetur recusandae dolore? Nisi ipsum a impedit quidem ducimus ipsam?
+                </div>
+            </div>
+            <div id="card-btns">
+                <img id="favorite-svg" src="svg/favorite-svgrepo-com.svg" alt="favorite svg">
+                <img id="heart-svg" src="svg/heart-svgrepo-com.svg" alt="heart-svg">
+                <img id="share-svg" src="svg/share-svgrepo-com.svg" alt="share svg">
+            </div>
+             </div>
         </div>
-
         <div id="card">
-            <p>Card 6</p>
-            <div>placeholder text</div>
+            <div id="card-container">
+            <div id="title-main-content">
+                <p>Leaving sweden</p>
+                <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas ipsum aut.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro fugit voluptatem, veritatis aspernatur ex, 
+                    id dicta accusamus dignissimos magni assumenda tenetur recusandae dolore? Nisi ipsum a impedit quidem ducimus ipsam?
+                </div>
+            </div>
+            <div id="card-btns">
+                <img id="favorite-svg" src="svg/favorite-svgrepo-com.svg" alt="favorite svg">
+                <img id="heart-svg" src="svg/heart-svgrepo-com.svg" alt="heart-svg">
+                <img id="share-svg" src="svg/share-svgrepo-com.svg" alt="share svg">
+            </div>
+             </div>
         </div>
     </div>
-
+    
     <div id="right-bar">
+         <p id="announcements-title">Announcements</p>
         <div id="announcements">
-            <p>announcements</p>
-            <div>placeholder</div>
-        </div>
+           
+                <p>Site Maitence</p>
+                <div>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis,
+                    nesciunt aliquid non saepe quos adipisci facilis necessitatibus
+                </div> 
+                <p>Community Share Day</p>
+                <div>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </div>
+                <p>Updated Privacy Policy</p>
+                <div>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                    Corporis temporibus consequuntur sequi qui quae totam nostrum voluptatem sunt illum!
+                    Ipsa laboriosam autem neque quibusdam minus cumque minima hic corrupti ducimus?
+                </div>
+            </div>
+            <p id="trending-title">Trending</p>
         <div id="trending">
-            <p>Trending</p>
-            <div>placeholder</div>
+           
+             <div id="trending-flex-container">
+                 <div><img id="minecraft-profile" src="pics/minecraft-profile.jpg" alt="minecraft profile pic">@Minecraft</div>
+                 <div><img id="steam-profile" src="pics/steam-profile-pic.jpg" alt="steam profile pic">@Steam</div>
+                 <div><img id="cs-profile" src="pics/cs2-profiile.jpg" alt="cs profile pic">@Counter-Strike</div>
+                 <div><img id="pubg-profile" src="pics/pubg-profile.jpg" alt="pubg profile pic">@PUBG</div>
+
+             </div>
         </div>
-    </div>
+    
 </body>
 </html>
